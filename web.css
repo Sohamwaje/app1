@@ -1,0 +1,135 @@
+
+*
+{
+    margin: 0px;
+}
+.header
+{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+@keyframes mybanner {
+    0%{background-image:url("https://static.vecteezy.com/system/resources/thumbnails/007/286/713/small/afro-girl-enjoying-music-wearing-sunglasses-and-headphone-banner-vector.jpg");}
+    50%{background-image: url("https://static.vecteezy.com/system/resources/thumbnails/005/004/846/small/abstract-sound-wave-curve-background-illustration-with-gold-and-blue-particles-creative-colorful-equalizer-and-spectrum-music-for-banner-and-poster-vector.jpg");}
+    100%{background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-simple-abstract-ink-music-banner-picture-image_1093941.jpg");}
+}
+.middle
+{
+    height: 300px;
+    width: 100%;
+    animation-name: mybanner;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.container
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+.card
+{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    margin: 45px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.card:hover
+{
+    transform: scale(0.9);
+    transition: 2s;
+    box-shadow: 4px 4px 10px black;
+}
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: wheat;
+}
+.layout1
+{
+    height: 70px;
+    width: 5%;
+    float: left;
+    background-color: pink;
+
+}
+.layout2
+{
+    float: right;
+    height: 70px;
+    width: 95% ;
+}
+ul li
+{
+    float: left;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: 22px;
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.formLayout
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 400px;
+    width: 60%;
+    margin-left: 20%;
+    background-color: AED4FE;
+    box-shadow: 4px 4px 10px black;
+}
+.part1
+{
+    height: 400px;
+    width: 50%;
+    /* background-color: orange; */
+    background-image: url('https://png.pngtree.com/png-vector/20220525/ourmid/pngtree-login-page-on-laptop-screen-png-image_4730395.png');
+    float: left;
+    background-size:contain;
+    background-repeat: no-repeat;
+    }
+.part2
+{
+    height: 400px;
+    width: 50%;
+    background-color: rgb(58, 58, 158);
+    float: right;
+    border-radius: 20px;
+}
+@keyframes m {
+    from{color:orange;transform: scale(1.1);}
+    to{color: white;transform: scale(1);}    
+}
+.myani
+{
+    animation-name: m;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+input[type='text'],input[type='password'],input[type='submit']
+{
+    height: 60px;
+    width: 200px;
+    background-color: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+    color: black;
+    margin-left: 90px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.mapLayout
+{
+    height: 500px;
+    width: 100%;
+    background-color: orange;
+}
